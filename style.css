@@ -1,0 +1,224 @@
+
+/* 1 */
+
+.navbar-alinks a{
+    justify-content: space-between;
+}
+section{
+    background-image:url("../Integral/imgaes/wp10739188-brooklyn-bridge-at-night-wallpapers.jpg") ;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height:100vh;
+    margin-top: 50px;
+    padding: 50px;
+}
+.section-heading{
+    color: white;
+    padding-top: 30px;
+    
+}
+.section-heading h1{
+    font-size: 80px;
+
+}
+.section-heading h3{
+    font-size: 50px;
+
+}
+.section-text{
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+}
+.section-buttons{
+    display: block;
+    padding: 50px;
+}
+
+
+
+/* 2 */
+.features-content{
+   padding-top: 30px;
+}
+.features-cols{
+    padding: 10px;
+}
+.features-icons{
+    color: green;
+    font-size: 40px;
+}
+
+
+/* 3 */
+
+.work-heading,.services-heading,.about-heading{
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.work-content,.services-content,.about-content{
+    align-items: center;
+    text-align: center;
+    color: rgb(139, 138, 138);
+}
+.work-data,.services-data,.about-data{
+    text-align:justify;
+}
+#work-data-highlighted,#services-data-highlighted,#about-data-highlighted{
+    margin-bottom: 10px;
+}
+
+/* project */
+.project-heading{
+    text-align: center;
+    margin-top: 50px;
+}
+.project-description{
+    margin-top: 40px;
+    display: flex;
+}
+
+.project-card{
+  width: 20%; 
+  background-color: gray;
+   
+}
+
+.project-details{
+    width: 70%;
+    margin-left: 30px;
+    text-align: justify;
+}
+
+/* Clients */
+.clients-heading{
+    text-align: center;
+    margin-top: 50px;
+}
+.clients-image{
+    padding: 15px;
+    text-align: center;
+}
+
+/* services */
+.services{
+    color: white;
+}
+.services-heading{
+    text-align: center;
+}
+.services-row{
+    padding:30px 0;
+   
+}
+.services-details{
+    text-align: justify;
+}
+.services-details h1{
+    text-align: center;
+}
+
+
+
+/* skills */
+.skills-heading{
+    text-align: center;
+}
+.skills-details{
+    float: right;
+}
+
+.progress-skills p{
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+
+
+/* team */
+.team-details{
+    padding: 20px;
+    text-align: center;
+}
+.team-heading{
+    text-align: center;
+}
+.team-details p{
+    text-align: justify;
+}
+.team-details i{
+    font-size: 30px;
+    padding: 10px;
+    color: black;
+}
+.team-pic{
+ border-radius: 50%;
+ width: 70%;
+}
+
+/* Contact */
+.contact{
+    color:white;
+    width: 100%;
+}
+
+.contact-heading{
+    text-align: center;
+}
+
+
+/* contact */
+.contact-info{
+    text-align: center;
+    padding: 10px;
+}
+.contact-details{
+    text-align: justify;
+}
+.contact-form{
+    text-align: justify;
+}
+label{
+    font-size: 20px;
+}
+input,textarea{
+    width: 300px;
+}
+
+footer i{
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+    
+    
+}
+
+@media screen and (max-width:800px) {
+    /* 1 */
+    .section{
+        height: fit-content;
+    }
+    /* 2 */
+    .features{
+        align-items: center;
+        text-align: center;
+    }
+    .project-description{
+        display: block;
+    }
+    .project-card{
+        width: 100%;
+    }
+    .project-details{
+        width: 100%;
+        margin: 0;
+    }
+    .clients-image{
+        text-align: center;
+        padding: 20px;
+    }
+}
